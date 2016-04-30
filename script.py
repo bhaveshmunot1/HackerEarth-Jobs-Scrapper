@@ -1,3 +1,16 @@
+
+"""
+For running on Linux machine,
+change 
+
+import requests
+import urllib.request as urllib2
+
+to
+
+import urllib2
+"""
+
 import requests
 import urllib.request as urllib2
 from lxml import html
